@@ -17,7 +17,7 @@ optional arguments:
 ```
 # Specifications
 
-This documentation generation tools is based on [Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html)
+This documentation generation tool is based on [Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html)
 
 For example : 
 
