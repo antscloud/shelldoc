@@ -2,10 +2,15 @@ name: Publish Python 🐍 distributions 📦 to PyPI and TestPyPI
 
 on:
     push:
-        branches: [main]
+        branches: 
+          - main
+        tags: 
+          - *
     pull_request:
-        branches: [main]
-
+        branches: 
+          - main
+        tags: 
+          - *
 jobs:
     build-n-publish:
         environment: ci/cd
