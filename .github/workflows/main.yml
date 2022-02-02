@@ -8,6 +8,7 @@ on:
 
 jobs:
     build-n-publish:
+        environment: ci/cd
         name: Build and publish Python 🐍 distributions 📦 to PyPI and TestPyPI
         runs-on: ubuntu-18.04
 
@@ -38,6 +39,7 @@ jobs:
             - name: Publish distribution 📦 to Test PyPI
               uses: pypa/gh-action-pypi-publish@master
               with:
+                  user: __token__
                   password: ${{ secrets.TEST_PYPI_API_TOKEN }}
                   repository_url: https://test.pypi.org/legacy/
 
