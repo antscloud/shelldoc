@@ -1,6 +1,6 @@
 import argparse
 import os
-from google_style.parser import Parser
+from shelldoc.google_style.parser import Parser
 import logging
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")

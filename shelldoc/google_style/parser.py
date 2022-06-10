@@ -1,6 +1,4 @@
-from google_style.lexer import BashLexer
-import logging
-import pprint
+from shelldoc.google_style.lexer import BashLexer
 
 
 class Description:
