@@ -1,4 +1,4 @@
-# Instalation 
+# Installation 
 
 Just `pip install shelldoc`
 
